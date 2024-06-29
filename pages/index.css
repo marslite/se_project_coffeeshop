@@ -14,6 +14,13 @@
 
 .header {
   padding: 30px 80px 40px;
+  position: relative;
+  /* justify-content: end; */
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
@@ -33,19 +40,45 @@
   text-decoration: none;
 }
 
+.header__span-accent {
+  display: block;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  font-family: "Noto Seris";
+  font-style: italic;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
 .header__title {
-  max-width: 720px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -0.6px;
+
+  margin: 183px 0 0;
+  max-width: 729px;
   margin-bottom: 28px;
 }
 
 .header__description {
+  margin: 28px 0 0;
   max-width: 683px;
+  font-family: "Noto Seris";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.accent {
-  display: block;
-  font-style: italic;
-  color: #2f80ed;
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: auto;
 }
 
 .second {
@@ -62,12 +95,16 @@
   height: 39px;
 }
 
-.image {
+.header__image {
+  top: 124px;
   position: absolute;
   width: 646px;
   height: 568px;
-  margin-top: 124px;
-  margin-left: 5px;
+  right: 5px;
+}
+
+.header__paragraphs_right {
+  align-self: end;
 }
 
 @media only screen and (max-width: 1600px) {
