@@ -38,6 +38,11 @@
 .nav__link {
   color: black;
   text-decoration: none;
+  font-family: "Inter,Arial,sans-serif family";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header__span-accent {
@@ -45,18 +50,18 @@
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
-  font-family: "Noto Seris";
+  font-family: "Noto Seris,Times New Roman, generic serif family";
   font-style: italic;
   font-weight: normal;
   color: #2f80ed;
 }
 
 .header__title {
-  font-family: "Inter";
+  font-family: "Inter, Arial,sans-serif family  ";
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
-  line-height: 70px;
+  line-height: 72px;
   letter-spacing: -0.6px;
 
   margin: 183px 0 0;
@@ -67,11 +72,20 @@
 .header__description {
   margin: 28px 0 0;
   max-width: 683px;
-  font-family: "Noto Seris";
+  font-family: "Noto Seris,Times New Roman, generic serif family";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+.header__paragraphs {
+  font-family: "Inter, Arial, sans-serif family ";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 
 .header__footer {
