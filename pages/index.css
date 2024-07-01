@@ -217,10 +217,10 @@ iframe {
   padding: 0;
   box-sizing: border-box;
   margin-top: 8px;
-  /* margin-bottom: 32px; */
+  margin-bottom: 32px;
 }
 .form__label {
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
   display: block;
 }
 
@@ -228,19 +228,22 @@ iframe {
   border: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 32px;
-  /* display: flex;
-  flex-direction: column; */
-}
-
-.form__button {
-  display: block;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 /* .form__button {
   margin-bottom: 32px;
 } */
+
+.form__button {
+  margin-bottom: 32px !important;
+  width: 100% !important;
+  padding: 0;
+}
+
+.form__checkbox {
+  margin-right: 12px;
+}
 
 .form__label_type_checkbox {
   display: flex;
@@ -249,9 +252,6 @@ iframe {
 }
 
 .reservation__title {
-  /* border: solid red; */
-  /* padding-bottom: 80px; */
-
   margin: 0 0 80px;
   text-align: center;
 }
