@@ -194,9 +194,9 @@ iframe {
   background-size: cover;
   padding-top: 100px;
   /* Revert it back in case it falls */
-  /* padding-bottom: 120px; */
+  padding-bottom: 120px;
   margin: 0px;
-  border: solid red;
+  /* border: solid white; */
 }
 
 .reservation__title {
