@@ -187,6 +187,16 @@ iframe {
   border: 0;
 }
 
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
 @media only screen and (max-width: 1600px) {
   .page {
     margin: auto;
