@@ -198,6 +198,7 @@ iframe {
   flex-direction: column;
   align-items: center;
   justify-content: center; */
+  margin: 0px;
   border: solid red;
 }
 
@@ -219,7 +220,10 @@ iframe {
   flex-direction: column; */
 }
 .reservation__title {
-  border: solid red;
+  /* border: solid red; */
+  /* padding-bottom: 80px; */
+  margin: 0 0 80px;
+  text-align: center;
 }
 
 .reservation__form input {
