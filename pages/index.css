@@ -36,6 +36,45 @@
 }
 
 .menu__cards {
+  padding: 0;
   margin: 0;
   margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  list-style: none;
+}
+
+.card {
+  width: 540px;
+  /* margin-bottom: 100px;
+  margin-left: 100px;
+  border: solid red; */
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.card__title {
+  /* margin: 0; */
+  margin-bottom: 32px;
+}
+
+.card__list-item {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  /* border-bottom-width: 1px; */
+  flex-grow: 1;
 }
