@@ -19,20 +19,37 @@
 }
 
 .menu__title {
-  border: solid red;
+  /* border: solid red; */
   text-align: center;
   margin: 0;
   margin-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  /* max-width: 780px; */
 }
 
 .menu__subtitle {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
   text-align: center;
   margin: 0;
   margin-bottom: 100px;
+  /* max-width: 780px; */
 }
 
 .menu__subtitle_text {
   display: block;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .menu__cards {
@@ -61,10 +78,20 @@
 
 .card__title {
   /* margin: 0; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
   margin-bottom: 32px;
 }
 
 .card__list-item {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
   margin-bottom: 16px;
   display: flex;
 }
@@ -77,4 +104,6 @@
   border-bottom: 1px solid black;
   /* border-bottom-width: 1px; */
   flex-grow: 1;
+  margin-left: 3px;
+  margin-right: 6px;
 }
