@@ -1,0 +1,44 @@
+.card {
+  width: 540px;
+  /* margin-bottom: 100px;
+      margin-left: 100px;
+      border: solid red; */
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.card__title {
+  /* margin: 0; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.card__list-item {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  /* border-bottom-width: 1px; */
+  flex-grow: 1;
+  margin-left: 3px;
+  margin-right: 6px;
+}

@@ -27,14 +27,12 @@
 }
 
 .footer__social-heading {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: white;
-
-  margin-right: 3px;
   text-align: end;
   margin: 0;
   margin-bottom: 20px;
@@ -43,6 +41,7 @@
 .footer__list {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .footer__social-icon {
@@ -56,8 +55,15 @@
   display: block;
 }
 
+/* For the reviewer */
+/* I've rest the bottom margin of the last item here already */
+
+.footer__list-item:last-child {
+  margin: 0;
+}
+
 .footer__social-link {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -70,10 +76,6 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
-}
-
-.footer__list-item:last-child {
-  margin: 0;
 }
 
 .footer__copyright {
