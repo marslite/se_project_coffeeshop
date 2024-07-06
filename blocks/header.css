@@ -47,7 +47,7 @@
   line-height: 30px;
 }
 
-.header__paragraphs {
+.header__paragraph {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -62,12 +62,6 @@
 
   margin-top: auto;
 }
-
-/* .second {
-  border: solid red;
-  margin-top: 40px;
-  display: inline;
-} */
 
 .nav__logo {
   position: relative;
@@ -86,6 +80,15 @@
   right: 5px;
 }
 
-.header__paragraphs_right {
+.header__footer {
+  display: flex;
+}
+
+/* #For the reviewer: */
+/* There's need for an additional modifier to correctly place */
+/* the coffee shop in its right position */
+
+.header__paragraph_address {
+  /* border: solid red; */
   align-self: end;
 }
