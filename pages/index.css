@@ -4,73 +4,10 @@
 @import url("../blocks/recipes.css");
 @import url("../blocks/reservation.css");
 @import url("../blocks/menu.css");
+@import url("../blocks/about.css");
 
 @media only screen and (max-width: 1600px) {
   .page {
     margin: auto;
   }
-}
-
-.about {
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 80px;
-  padding-right: 80px;
-  /* box-sizing: border-box; */
-  background-color: #0a2850;
-  color: white;
-  position: relative;
-  overflow: hidden;
-}
-
-.about_div {
-  display: block;
-}
-
-.about__title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  margin-top: 100px;
-  z-index: 1;
-  max-width: 251px;
-  height: 86px;
-}
-
-.about__content {
-  max-width: 660px;
-  margin-top: 119px;
-  margin-bottom: 173px;
-}
-
-.about__paragraph {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-.about__paragraph:last-child {
-  margin-bottom: 0;
-}
-
-.about__spacer {
-  flex-grow: 1;
-}
-
-.about__circle {
-  left: -129px;
-  top: -152px;
-  width: 426px;
-  height: 426px;
-  position: absolute;
-  border-radius: 50%;
-  background-color: #2f80ed;
-  overflow: hidden;
-  z-index: 0;
 }
