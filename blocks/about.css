@@ -59,7 +59,7 @@
   border-radius: 50%;
   background-color: #2f80ed;
   overflow: hidden;
-  transform: pulsate;
+  /* transform: pulsate; */
   z-index: 0;
 }
 
