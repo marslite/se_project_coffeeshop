@@ -18,7 +18,7 @@
 .footer__content {
   display: flex;
   justify-content: space-around;
-  border: solid red;
+  /* border: solid red; */
   margin-bottom: 108px;
 }
 
@@ -33,6 +33,7 @@
   font-size: 16px;
   line-height: 20px;
   color: white;
+
   margin-right: 3px;
   text-align: end;
   margin: 0;
@@ -47,7 +48,7 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .footer__list-item {
@@ -55,13 +56,20 @@
   display: block;
 }
 
-.footer__list-item-title {
+.footer__social-link {
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: white;
+  display: flex;
+  align-items: center;
+  transition: color 1.2 ease-in-out;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__list-item:last-child {
