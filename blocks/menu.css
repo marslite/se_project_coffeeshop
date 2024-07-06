@@ -29,7 +29,9 @@
   text-align: center;
   margin: 0;
   margin-bottom: 100px;
-  /* max-width: 780px; */
+  /* #For the reviewer: */
+  /* By adding the max-width the text will not be centering anymore */
+  max-width: 780px;
 }
 
 .menu__subtitle_text {

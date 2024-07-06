@@ -45,6 +45,7 @@
 }
 
 .footer__social-icon {
+  /* border: solid red; */
   height: 16px;
   width: 16px;
   margin-right: 10px;
