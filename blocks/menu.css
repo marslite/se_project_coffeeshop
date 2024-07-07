@@ -20,13 +20,22 @@
   /* max-width: 780px; */
 }
 
+/* #For the reviewer: */
+/* To center the menu__subtitle I had to put inside a div */
+/* then I made it a flex containter and used justify-content: center */
+
+.menu__subtitle_container {
+  display: flex;
+  justify-content: center;
+}
+
 .menu__subtitle {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  text-align: center;
+  text-align: center !important;
   margin: 0;
   margin-bottom: 100px;
   /* #For the reviewer: */
