@@ -10,9 +10,11 @@
   overflow: hidden;
 }
 
-.about_div {
+/* For the reviewer: */
+/* I removed it as suggested but it's not acting as expected */
+/* .about_div {
   display: block;
-}
+} */
 
 .about__title {
   font-family: "Inter", Arial, sans-serif;
@@ -65,19 +67,6 @@
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
-  /* For the reviewer: */
-  /* #If you remove the left property for the animated circle 
-  it won't be in the right place 
-  I've removed the propety as suggested.
-  */
-  /* left: -129px; */
-  top: -152px;
-  width: 426px;
-  height: 426px;
-  position: absolute;
-  z-index: 0;
-  background-color: #2f80ed;
-  border-radius: 50%;
 }
 
 @keyframes pulsate {
